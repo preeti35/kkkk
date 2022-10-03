@@ -277,7 +277,7 @@ const Homepage = () => {
             <section className='w-full'>
                 {/* <ful screen */}
                 <div className='sec_1  hidden lg:block w-full'>
-                    <img src={img2} className ="w-full" key ="hh" />
+                    <img src={img2} className ="w-full" alt ="hh" />
                     <div className='   text-white  flex justify-center items-center  m-9'>
 
                         <div className='flex flex-col capitalize  space-y-12  text-center'>
@@ -290,7 +290,7 @@ const Homepage = () => {
 
                     </div>
                     <div>
-                        <img src={img3}  className ="w-full"/>
+                        <img src={img3}  className ="w-full"  alt ="jhv"/>
 
                     </div>
 <div   className='overflow-auto'>
