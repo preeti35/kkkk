@@ -277,7 +277,7 @@ const Homepage = () => {
             <section className='w-full'>
                 {/* <ful screen */}
                 <div className='sec_1  hidden lg:block w-full'>
-                    <img src={img2} className ="w-full" />
+                    <img src={img2} className ="w-full" key ="hh" />
                     <div className='   text-white  flex justify-center items-center  m-9'>
 
                         <div className='flex flex-col capitalize  space-y-12  text-center'>
@@ -301,7 +301,7 @@ const Homepage = () => {
                                 console.log(data)
                                 return <div className=' '>
                                     <div className=''>
-                                        <img src={datas.plpimaage}  className= "h-80  object-cover"/>
+                                        <img src={datas.plpimaage}  className= "h-80  object-cover"  alt= "khjhg"/>
                                         <span>{datas.name}</span>
 
                                     </div>
@@ -407,7 +407,7 @@ const Homepage = () => {
 
 
                     </ul>
-                    <img src={img2} />
+                    <img src={img2}  alt="kjh" />
 
 
 
